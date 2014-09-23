@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -114,13 +114,6 @@ regulator. Only the through-hole versions of the footprints exist. All three foo
 <wire x1="21.08195625" y1="21.33700625" x2="-17.90704375" y2="21.33700625" width="0.127" layer="21"/>
 <wire x1="-17.90704375" y1="21.33700625" x2="-17.90704375" y2="-1.77699375" width="0.127" layer="21"/>
 <text x="-4.44504375" y="16.89200625" size="1.27" layer="21">PTN78020</text>
-<text x="-17.131784375" y="1.575315625" size="1.27" layer="22" rot="MR90">VIN</text>
-<text x="18.75594375" y="1.84485" size="1.27" layer="22" rot="MR90">VOUT</text>
-<text x="-3.81004375" y="1.90600625" size="1.27" layer="22" rot="MR90">EN</text>
-<text x="-0.63504375" y="1.65200625" size="1.27" layer="22" rot="MR90">ADJUST</text>
-<text x="2.66695625" y="1.65200625" size="1.27" layer="22" rot="MR90">SENSE</text>
-<text x="-16.00300625" y="17.14495625" size="1.27" layer="22" rot="MR270">GND</text>
-<text x="19.81099375" y="17.01795625" size="1.27" layer="22" rot="MR270">S/GND</text>
 <pad name="VIN_S" x="-12.70004375" y="0.00100625" drill="1.4"/>
 <pad name="VOUT_S" x="9.52495625" y="0.00100625" drill="1.4"/>
 <pad name="S/GND_S" x="9.52495625" y="12.70100625" drill="1.4"/>
